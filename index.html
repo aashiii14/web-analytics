@@ -20,38 +20,46 @@ window.dataLayer.push({
   'event': 'login',
   'loginMethod' : 'email'
 }); </script>
-      
-       <script>
+        <script>
             window.dataLayer = window.dataLayer || [];
             dataLayer.push({
-                  'event' :  'view_item_list',
-                  'item_id': "ITM_12345",
+                  'event' :  'remove_from_cart',
+              ecommerce:{
+                'currency': "USD",
+                'value':8,
+                items:[
+                  {
+                  'item_id': "CHRST001",
 
-      'item_name': "Python",
+      'item_name': "Book",
 
-      'affiliation': "online_Course",
+      'affiliation': "Google Merchandise Store",
 
-     'currency': "INR",
+     'coupon': "Entertainment",
 
-      'discount': 100,
+      'discount': 2.22,
 
-      'item_brand': "MOOC",
+      'item_brand': "Google",
 
-      'item_category': "Python",
+      'item_category': "Education",
 
-      'item_category2': "ML",
+      'item_category2': "Book",
 
-      'item_category3': "DS",
+      'item_category3': "e-Book",
 
-      'item_category4': "CS",
+      'item_category4': "Audio_Book",
 
-      'item_variant': "Online",
+      'item_variant': "Reading",
+                    
+      'item_list_id' : "related_products",
+      
+      'item_list_name' : "Related Products",
 
-      'location_id': "ChIJIQBpAG2ahYAR_6128GcTUEo",
+      'location_id': "MST112",
 
-      'price': 5000,
+      'price': 20,
 
-      'quantity': 1
+      'quantity': 5
                   
                   
             })
